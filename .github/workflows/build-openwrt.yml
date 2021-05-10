@@ -17,10 +17,10 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: false
-        default: 'false'
+        default: 'true'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/bull13-GitHub/passwall1
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
