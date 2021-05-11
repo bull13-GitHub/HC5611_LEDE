@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/bull13-GitHub/lede
+  REPO_URL: https://github.com/bull13-GitHub/openwrt/tree/openwrt-19.07
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
